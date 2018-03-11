@@ -28,7 +28,7 @@ const Point = styled.div`
 	height: 25px; 
 `;
 
-const renderPoint = ({x, y, node, rendered}) => {
+const renderPoint = ({x, y, node}) => {
   const id = `${node}-${x}-${y}`;
   if (document.getElementById(id)) return;
 
