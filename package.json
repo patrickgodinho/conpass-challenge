@@ -5,10 +5,10 @@
   "license": "MIT",
   "scripts": {
     "test": "echo \"Empty set of tests, my brother\" && exit 1",
-    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/web.dev.config.js --content-base dist/ --port 3000 --inline --hot --colors --historyApiFallback"
+    "dev": "./node_modules/.bin/webpack-dev-server --config ./webpack/web.dev.config.js --port 3000 --inline --hot --colors "
   },
   "dependencies": {
-    "bulma": "^0.6.2",
+    "ramda": "^0.25.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-redux": "^5.0.7",
